@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup page</title>
+  <link rel="stylesheet" type="text/css" href="P.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Signup</h2>
+
+   <!-- <form action="http://localhost/sntiproject/Signup.php" method="post"> -->
+    
+      <label for="email">Email:</label>   
+      <input type="email" id="email" name="eml" required placeholder="abc123@gmail.com">
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="nm" required placeholder="Abc Xyz">
+      
+      <label for="contact">Contact:</label>
+      <input type="tel" id="contact" name="cnt" required placeholder="91 0000011111">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="psw" required placeholder="Xyz@#1234">
+
+      <label for="Confirm_Password">ConfirmPassword:</label>
+      <input type="password" id="confirm_password" name="cpd" required>
+      <span id="password_error" class="error"></span>
+            
+      <input type="submit" value="Login">
+    </form>
+  </div>
+</body>
+</html>
